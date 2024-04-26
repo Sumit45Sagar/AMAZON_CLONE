@@ -1,0 +1,11 @@
+const testProduct = new productModel({
+  title: "Titan Watch",
+  price: 1000,
+});
+
+testProduct.save().then((res) => {
+  console.log(res);
+});
+
+
+
